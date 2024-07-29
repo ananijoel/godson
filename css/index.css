@@ -1,0 +1,128 @@
+.welcome {
+    height: 80vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    color: black;
+    background-image: url('/files/casef.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    color: white;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.text h1 {
+    font-size: 3rem;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.text p {
+    z-index: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.panel h1 {
+    color: darkgrey;
+    border-bottom: 3px solid #ffce15;
+}
+
+.panel.description p, .panel.projets p, .panel.andemnites p, .panel.actualites p {
+    font-size: 18px;
+    color: #333;
+}
+
+.panel.projets ul, .panel.andemnites ul, .panel.actualites ul {
+    list-style: none;
+    padding: 0;
+}
+
+.panel.projets li, .panel.andemnites li, .panel.actualites li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.panel {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.panel h1 {
+    margin-top: 0;
+}
+
+.panel p, .panel ul {
+    margin: 0;
+}
+
+.panel ul {
+    padding-left: 20px;
+}
+
+.panel ul li {
+    margin-bottom: 10px;
+}
+
+        .panel {
+            height: 80vh;
+            width: 100vw;
+            padding: 20px;
+        }
+        .welcome {
+            height: 80vh;
+            width: 100vw;
+            background-color: antiquewhite;
+            color: black;
+            background-image: url('/files/casef.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            color: white;
+        }
+        .text {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+        }
+        .text h1 {
+            font-size: 3rem;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .text p {
+            z-index: 1;
+            font-size: 24px;
+            padding: 0;
+            margin: 0;
+        }
+        .panel h1 {
+            color: darkgrey;
+            border-bottom: 3px solid #ffce15;
+        }
+        .panel.description p, .panel.projets p, .panel.andemnites p, .panel.actualites p {
+            font-size: 18px;
+            color: #333;
+        }
+        .panel.projets ul, .panel.andemnites ul, .panel.actualites ul {
+            list-style: none;
+            padding: 0;
+        }
+        .panel.projets li, .panel.andemnites li, .panel.actualites li {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
